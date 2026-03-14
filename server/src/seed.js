@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs")
 const User = require("./models/User")
 const Event = require("./models/Event")
 
-require("dotenv").config()
+require("dotenv").config({path: "../.env"})
 
 async function seed(){
 
